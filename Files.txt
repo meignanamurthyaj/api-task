@@ -1,0 +1,23 @@
+CREATE DATABASE customer;
+
+USE customer;
+
+CREATE TABLE customers (
+customer_id INT,
+customer_name VARCHAR(100),
+email VARCHAR(100),
+phone_number varchar(100)
+);
+
+INSERT INTO customers(customer_id, customer_name, email, phone_number) VALUES
+(101, "Prabhu", "prabhu@gmail.com", "9999988888"),
+(102, "Muthu", "muthu@gmail.com", "8877665544"),
+(103, "Raja", "raja@gmail.com", "7894561238"),
+(104, "Vinu", "vinu@gmail.com", "9638527412"),
+(105, "Senthil", "senthil@gmail.com", "8529637415")
+;
+
+SELECT * FROM customers;
+
+
+
